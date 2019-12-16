@@ -6,6 +6,13 @@ import com.taras.Department;
 import com.taras.Department;
 import com.taras.HibernateUtil;
 
+
+/*1) File -> Project structure->  artifacts -> jar -> from modules with dependencies:
+note: include in project build:  checked
+2) Build -> Build artifacts
+ cd C:\Users\taras\IdeaProjects\hibernate\out\artifacts\hibernate_jar\
+ to run:  java -jar hibernate.jar*/
+
 import org.hibernate.*;
 
 public class HibernateTest {
